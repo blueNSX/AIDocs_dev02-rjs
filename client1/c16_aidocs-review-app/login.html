@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" required>
+                <label for="password">Password</label>
+            </div>
+            <button type="submit" class="btn-email">Login with Email</button>
+            <button type="button" id="googleLogin" class="btn-google">Login with Google</button>
+            <button type="button" id="facebookLogin" class="btn-facebook">Login with Facebook</button>
+        </form>
+    </div>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0&appId=YOUR_FACEBOOK_APP_ID&autoLogAppEvents=1" nonce="YOUR_NONCE"></script>
+    <script src="script.js"></script>
+</body>
+</html>
