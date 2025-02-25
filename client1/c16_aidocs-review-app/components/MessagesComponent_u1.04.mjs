@@ -113,15 +113,20 @@ return  aColor
           background-color: #DDDDDD   /* Light Gray - was #9ad8e3;      /* .(40429.03.4 RJS) *//* var(--User-BackgroundColor);  */
           color           : #000;     /* var(--User-FontColor);  */
           text-align      : left;
+          font-weight     : 600;
           margin-left     : 52px;
           }
 
         .assistant-message {
-          background-color: blue;     /* #338b33; /* var(--Assistant-BackgroundColor); */
+          background-color: black;     /* #338b33; /* var(--Assistant-BackgroundColor); */
           color           : #fff;     /* var(--Assistant-FontColor); */
           text-align      : left;
-          font-weight     : 500;                                        /* .(40429.04.5 RJS) */
+          font-weight     : 600;                                        /* .(40429.04.5 RJS) */
           font-size       : 1rem;                                       /* .(40429.04.6 RJS) */
+          }
+
+          .pencil {
+            float         : right;
           }
           @media only screen                                            /* .(40430.01.1 RJS Beg iPad Responsiveness) */
           and (min-width: 621px)
@@ -231,13 +236,14 @@ return  aColor
  return html`
         <div class="message ${ message.role === 'user' ? 'user-message' : 'assistant-message'}">
           ${ message.role === 'user' ? message.message : unsafeHTML( message.message ) }                  <!-- .(40411.03.5 RAM fmt <br>s) -->
-          </div>
-<!--      <div><button type="submit">Print</button></div>-->                                              <!--#.(40510.06.1 RJS Add Print Button) -->  
+          </div>&nbsp;
+          <!--<div><img src='./assets/images/pencil.gif' width='15px'></div>-->
+          <!--<div class="pencil"><button type="submit">Print</button></div>-->                                <!--#.(40510.06.1 RJS Add Print Button) -->
         `;
         }
 //    ---------------------------------------------------------
       }
-//  -------------------------------------------------------------------------------
+//  --------------&nbsp;-----------------------------------------------------------------
 
     customElements.define( 'messages-component', MessagesComponent_ );
 

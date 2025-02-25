@@ -32,12 +32,12 @@
 # .(40412.01  4/12/24 RAM  3:17p|  Add JPT's Doc Header Info
 # .(40422.03  4/21/24 RAM  9:30p|  Import Msg Comp failed on Mac
 # .(40426.01  4/26/24 RJS  9:30a|  Style Changes
-# .(40429.02  4/29/24 RJS 10:02a|  Add .Documents
+# .(40429.02  4/29/24 RJS 10:02a|  Add .Document
 # .(40429.03  4/29/24 RJS 10:03a|  Change color to grey
 # .(40429.04  4/29/24 RJS 10:04a|  Change font size
-# .(40429.05  4/29/24 RJS 10:05a|  Replace <hr> above .Documents with border-top
+# .(40429.05  4/29/24 RJS 10:05a|  Replace <hr> above .Document with border-top
 # .(40501.01  5/01/24 RJS 10:01a|  Style changes
-# .(40501.05  5/01/24 RAM  4:30p|  Add space to top of .Documents
+# .(40501.05  5/01/24 RAM  4:30p|  Add space to top of .Document
 # .(40503.01  5/03/24 RJS 11:01a|  iPad Responsiveness
 # .(40510.02  5/10/24 RJS 10:00a|  Style changes to Form Component
 # .(40510.03  5/10/24 RJS 10:00a|  Add two text links
@@ -60,10 +60,8 @@ class FormComponent extends LitElement {
 
       form {
         display         :  flex;
-        flex-direction  :  row;                                         /* .(40510.02.1 RJS Add: flex direction) */
-        margin-top      :  20px;
-        margin-bottom   :  100px;                                       /* .(40501.01.1 RJS Add: margin-bottom to form) */
-        margin-right    :  10px;                                        /* .(40510.02.2 RJS Add: margin-right) */
+        flex-direction  :  row;
+        margin          :  20px 10px 100px 0px;                                           /* .(40510.02.1 RJS Add: flex direction) */
         padding         :  0 10px;                                      /* .(40510.02.3 RJS Add: padding).(40501.01.1 RJS Add margin-bottom to form) */
         }
 
@@ -88,12 +86,13 @@ class FormComponent extends LitElement {
       .SendText {                                                       /* .(40510.03.3 RJS Add: two Text labels Beg) */
         display         : block;
         background      : white;
-        color           : blue;
+        color           : #000;
+        font-weight     : bold;
       }
       .GreaterText {
-        display          : none;
+        display         : none;
         background      : white;
-        color           : blue;
+        color           : #000;
         padding         : 0px 10px 25px 10px;
       }                                                                 /* .(40510.03.3 RJS End) */
       .fld-text {
@@ -113,13 +112,13 @@ class FormComponent extends LitElement {
 /*      box-shadow      :  0px 1px 3px #000000; */
         border-style    :  inset;
 
-        background-color:  #DDDDDD;                                     /* .(40429.03.2 RJS light gray Was #9ad8e3 Light blue) */
+        background-color:  #F0F0F0;                                     /* .(40429.03.2 RJS light gray Was #9ad8e3 Light blue) */
         font-family     :  sans-serif;
         font-size       :  1rem;                                        /* .(40429.04.2 RJS Change font size was 14px;) */
         font-weight     :  500;                                         /* .(40429.04.3 RJS) */
         }
       .prompt {
-        color           :  blue;
+        color           :  #000;
         font-size       :  1.3rem;
         font-weight     :  700;
         padding-bottom  :  10px;
@@ -132,13 +131,13 @@ class FormComponent extends LitElement {
         margin          : auto;
       }
  */                                                                     /*#.(40429.05.1 RJS End) */
-      .Documents {                                                      /* .(40429.02.3 RJS Beg Add .Documents ) */
+      .Document {                                                      /* .(40429.02.3 RJS Beg Add .Document ) */
         position        :  relative;
         padding-left    :  40px;
         padding-bottom  :  5px;
         padding-top     :  30px;                                        /* .(40510.02.6 RJS Was: 20px;) */
         text-align      :  left;
-        margin-top      :  -20px;                                       /* .(40510.02.7 RJS Was: 10px;).(40501.05.1 RAM Add space to top of .Documents) */
+        margin-top      :  -20px;                                       /* .(40510.02.7 RJS Was: 10px;).(40501.05.1 RAM Add space to top of .Document) */
         border-top      :  blue solid 0px;                              /* .(40429.05.2 RJS Beg Add border-top) */
         }
       .DocumentTitle {                                                  /* .(40429.02.3 RJS Add .DocumentTitle ) */
@@ -156,12 +155,7 @@ class FormComponent extends LitElement {
         and (min-width: 621px)
         and (max-width: 1000px)
 /*        {                                                           *//* .(40510.02.8 RJS Mov: .fld-text Beg) *//*
-            .fld-text {
-              max-width    :  550px;
-              width        : 1500px;
-            }
-          }  */                                                         /* .(40510.02.8 RJS End).(40503.01.1 RJS End) */
-        {                                                               /* .(40510.02.9 RJS Add: many lines Beg) */
+                                                                     /* .(40510.02.8 RJS End).(40503.01.1 RJS End) */
         form {
           display          : flex;
           flex-direction   : row;
@@ -187,6 +181,11 @@ class FormComponent extends LitElement {
         .DocumentText {
           font-size: 1rem;
         }
+        #f01_prompt {                                                   /* .(40510.02.13 RJS Add: #f01_prompt Beg) */
+          min-width       : 510px;
+          margin          : 0px 0px 0px 10px;
+        }                                                               /* .(40510.02.13 RJS End) */
+
       }                                                                 /* .(40510.02.9 RJS End).(40503.01.1 RJS End) */
       @media only screen
       and (max-width: 440px)                                            /* .(40510.04.1 RJS Add: Media portrait Beg) */
@@ -201,6 +200,7 @@ class FormComponent extends LitElement {
           margin-right: 10px;
         }
         .Document {
+          margin-top      : 200px;
           padding-top     : 100px;
           width           : 20px;
         }
@@ -278,12 +278,13 @@ class FormComponent extends LitElement {
 
   render() {
     return html`
-<!--  <hr style='width:90%; height:0px; color:red;'> -->                                                  <!--#.(40429.05.3 RJS Don't add <hr>) -->
-
-      <div class="Documents">                                                                             <!-- .(40429.02.4 RJS Add .Documents) -->
+<!--  <hr style='width:90%; height:0px; color:red;'> -->
+<!--                                                  
+      <div class="Document">                          
         <span class="DocumentTitle">User Document(s):</span>
         <span class="DocumentText">&nbsp;GreenbookFY2025.pdf&nbsp;</span>
-      </div>                                                                                              <!-- .(40429.02.4 RJS End) -->
+      </div>                                                                                           
+-->
       <form @submit=${ this.handleSubmit}>
         <label for="f01_prompt">&nbsp;<font class="prompt">?</font></label>
 <!--    <label for="f01_prompt">&nbsp;Prompt: </label>-->

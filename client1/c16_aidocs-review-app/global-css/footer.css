@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Caprasimo');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2family=Exo+2:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    width: 1010px;
+    max-width: 1010px;
+    height: 35px;
+    left: auto;
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    z-index: 20;
+}
+
+.footer-logo img {
+    /*width: 300px;*/
+    justify-content: center;
+    text-align: center;
+    padding: 6px 200px 0px 0px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer {
+        width: 100%;
+    }
+
+    .footer-logo img {
+        /*width: 300px;*/
+        justify-content: center;
+        text-align: center;
+        padding: 6px 0px 0px 0px;
+    }
+
+}
