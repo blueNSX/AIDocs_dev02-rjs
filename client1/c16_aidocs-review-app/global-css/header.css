@@ -54,6 +54,7 @@ The global header properties
     width: 180px;
 }
 .hamburger {
+    display: none;
     float: right;
     padding-right: 50px;
 }
@@ -103,6 +104,17 @@ a {
 }
 /*==================================================*/
 
+  
+
+
+
+
+
+
+
+
+
+
 /*==================================================
 The global header responsiveness properties
 /-------------------------------------------------*/
@@ -123,6 +135,7 @@ The global header responsiveness properties
     .header-section {
         padding: 10px;
     }
+
 }
 
 /* Small smartphones */
