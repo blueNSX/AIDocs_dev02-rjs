@@ -3,15 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2family=Exo+2:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
-<<<<<<< HEAD
-* {
-  box-sizing: border-box;
-  font-size: 16px;
-}
-body {
-  background-color: lightblue;
-}
-=======
 
 html {
   overflow-y: scroll;
@@ -26,7 +17,6 @@ html {
 
 }
 
->>>>>>> fe9cb0da3d1a6bfd90b782dc396ed1f521d1bc17
 .logout-temp-div {
   display: none;
   text-align: right;
@@ -37,27 +27,12 @@ html {
   color: white;
   font-family: monospace;
   font-weight: 700;
-<<<<<<< HEAD
-  background-color: blue;
-=======
   background-color: whitesmoke;
->>>>>>> fe9cb0da3d1a6bfd90b782dc396ed1f521d1bc17
   padding: 2px 8px 2px 8px;
   border: 1px solid blue;
   border-radius: 8px;
 }
 
-<<<<<<< HEAD
-
-.Section1 {
-  height: 700px; /*was 120px*/
-  width: var(--GlobalMaxWidth);
-  width: 100%;
-  top: 60px;
-  left: 0px;  
-  /*background: url( '../assets/images/monaco-blue-soft.jpg');*/
-  background-color: lightblue;
-=======
 .Section1 {
   height: 550px; 
   width: auto;
@@ -65,7 +40,6 @@ html {
   top: 60px;
   left: 0px;  
   background-color: #F0F0F0;
->>>>>>> fe9cb0da3d1a6bfd90b782dc396ed1f521d1bc17
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -76,20 +50,10 @@ html {
   color: whitesmoke;
   text-shadow: 1px 1px 3px #000000;
 }
-<<<<<<< HEAD
-.Section2 {
-  height: 600px;
-  background-color: aliceblue;
-}
-.login {
-  width: 400px;
-  background-color: #ffffff;
-=======
 
 .login {
   width: 400px;
   background-color: #F0F0F0;
->>>>>>> fe9cb0da3d1a6bfd90b782dc396ed1f521d1bc17
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
   margin: 250px auto 0px auto;
 }
@@ -107,11 +71,7 @@ html {
   padding-top: 20px;
 }
 .label-styles {
-<<<<<<< HEAD
-  background-color: #3274d6;
-=======
   background-color: #000;
->>>>>>> fe9cb0da3d1a6bfd90b782dc396ed1f521d1bc17
   color: #ffffff;
 }
 
@@ -132,31 +92,14 @@ html {
   margin-bottom: 20px;
   padding: 0 15px;
 }
-<<<<<<< HEAD
-/* .login form input[type="password"] {
-  margin-right: 50px;
-} */
-=======
 .login form input[type="password"] {
   margin-right: 0px;
 }
->>>>>>> fe9cb0da3d1a6bfd90b782dc396ed1f521d1bc17
 
 .login form input[type="submit"] {
   width: 100%;
   padding: 15px;
   margin-top: 20px;
-<<<<<<< HEAD
-  background-color: #3274d6;
-  border: 0;
-  cursor: pointer;
-  font-weight: bold;
-  color: #ffffff;
-  transition: background-color 0.2s;
-}
-.login form input[type="submit"]:hover {
-background-color: #2868c7;
-=======
   background-color: gray;
   border: 0;
   cursor: pointer;
@@ -167,7 +110,6 @@ background-color: #2868c7;
 .login form input[type="submit"]:hover {
 color: #FFF;
 background-color: #000;
->>>>>>> fe9cb0da3d1a6bfd90b782dc396ed1f521d1bc17
   transition: background-color 0.2s;
 }
 #login-cancel {
@@ -180,11 +122,7 @@ background-color: #000;
 }
 /*Creates the EYE toggle*/
 #trigger {
-<<<<<<< HEAD
-  display: none;
-=======
   display: NONE;
->>>>>>> fe9cb0da3d1a6bfd90b782dc396ed1f521d1bc17
 }
 .checker {
   background-image: url('../assets/images/eyeball.gif');
@@ -194,11 +132,7 @@ background-color: #000;
   height: 15px;
   background-repeat: no-repeat;
   position: absolute;
-<<<<<<< HEAD
-  margin: -70px 0px 0px 260px;
-=======
   margin: -70px 0px 0px 300px;
->>>>>>> fe9cb0da3d1a6bfd90b782dc396ed1f521d1bc17
 }
 #trigger:checked + .checker {
   background-position: left center;
@@ -218,28 +152,6 @@ background-color: #000;
 #login-error a {
   font-size: 14px;
 }
-<<<<<<< HEAD
-.Footer {
-  display: block;
-  height: 60px;
-  bottom: 5px;
-  /* width: 440px; */
-  /* opacity: 0.82; */
-  /* border-top: dotted 2px #696969; */
-
-} 
-.FooterNavList {
-  justify-content: center;
-  padding-left: 0px;
-  margin: 5px;
-  text-align: center;
-}
-.FooterNavListItem  {
-  padding: 10px 0px 10px 0px;
-}
-  .FooterNavListItem a {
-    color: #505050;
-=======
 
 
 /* Media Queries */
@@ -251,5 +163,4 @@ background-color: #000;
   }
 
 
->>>>>>> fe9cb0da3d1a6bfd90b782dc396ed1f521d1bc17
 }

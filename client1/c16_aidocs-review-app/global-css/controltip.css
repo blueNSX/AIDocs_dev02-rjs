@@ -1,0 +1,178 @@
+/*----------Tool Tip Styles----------------------*/
+  /* REFRESH Icon Control Tip */  
+  .refresh-tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+.refresh-tooltip .refresh-tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+  }
+  
+.refresh-tooltip:hover .refresh-tooltiptext {
+    visibility: visible;
+  }
+
+  /* COPY Icon Control Tip */  
+.copy-tooltip {
+    position: relative;
+    display: inline-block;
+ }
+  
+.copy-tooltip .copy-tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+  }
+  
+.copy-tooltip:hover .copy-tooltiptext {
+    visibility: visible;
+  }
+
+  /* UPLOAD Icon Control Tip */  
+.upload-tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+.upload-tooltip .upload-tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+  }
+  
+.upload-tooltip:hover .upload-tooltiptext {
+    visibility: visible;
+  }
+
+  /* LIKE Icon Control Tip */  
+  .like-tooltip {
+    position: relative;
+    display: inline-block;
+ }
+  
+.like-tooltip .like-tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    margin: 30px 90px 0px -50px;
+  }
+  
+.like-tooltip:hover .like-tooltiptext {
+    visibility: visible;
+  }
+
+  /* DSILIKE Icon Control Tip */  
+  .dislike-tooltip {
+    position: relative;
+    display: inline-block;
+ }
+  
+.dislike-tooltip .dislike-tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0px 0px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    margin: 30px 90px 0px -50px;
+  }
+  
+.dislike-tooltip:hover .dislike-tooltiptext {
+    visibility: visible;
+  }
+
+
+  /* MENU Icon Control Tip */  
+.menu-tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+.menu-tooltip .menu-tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 10px 10px 10px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    margin: 30px 100px 0px -120px;
+  }
+  
+.menu-tooltip:hover .menu-tooltiptext {
+    visibility: visible;
+  }
+
+  /* SHOW MORE Icon Control Tip */  
+  .show-more-tooltip {
+    position: relative;
+    display: inline-block;
+    color: white;
+  }
+  
+.show-more-tooltip .show-more-tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 10px 10px 10px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    margin: 60px 100px 0px -100px;
+  }
+  
+.show-more-tooltip:hover .show-more-tooltiptext {
+    visibility: visible;
+  }
+/*------End Tool Tip Styles----------------------*/
